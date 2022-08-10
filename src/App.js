@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Movie from './movie';
 
-function App() {
+function App() {  
   return (
     <div>
       
@@ -107,7 +108,7 @@ function App() {
 				    </div>
 				    <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" width="119" height="58"/></a>
 			    </div>
-				{'<!-- Collect the nav links, forms, and other content for toggling -->'}
+				
 				<div className="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
 					<ul className="nav navbar-nav flex-child-menu menu-left">
 						<li className="hidden">
@@ -189,10 +190,10 @@ function App() {
 						<li className="btn signupLink"><a href="#">sign up</a></li>
 					</ul>
 				</div>
-			{'<!-- /.navbar-collapse -->'}
+			
 	    </nav>
 	    
-	    {'<!-- top search form -->'}
+	    
 	    <div className="top-search">
 	    	<select>
 				<option value="united">TV show</option>
@@ -202,7 +203,7 @@ function App() {
 	    </div>
 	</div>
 </header>
-{'<!-- END | Header -->'}
+
 
 <div className="hero common-hero">
 	<div className="container">
@@ -237,17 +238,9 @@ function App() {
 					<a href="movielist.html" className="list"><i className="ion-ios-list-outline active"></i></a>
 					<a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
 				</div>
-				<div className="movie-item-style-2">
-					<img src="images/uploads/mv1.jpg" alt=""/>
-					<div className="mv-item-infor">
-						<h6><a href="moviesingle.html">oblivion <span>(2012)</span></a></h6>
-						<p className="rate"><i className="ion-android-star"></i><span>8.1</span> /10</p>
-						<p className="describe">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
-						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Joss Whedon</a></p>
-						<p>Stars: <a href="#">Robert Downey Jr.,</a> <a href="#">Chris Evans,</a> <a href="#">  Chris Hemsworth</a></p>
-					</div>
-				</div>
+
+        <Movie></Movie>
+
 				<div className="movie-item-style-2">
 					<img src="images/uploads/mv2.jpg" alt=""/>
 					<div className="mv-item-infor">
@@ -379,9 +372,9 @@ function App() {
 					<div className="sb-twitter sb-it">
 						<h4 className="sb-title">Tweet to us</h4>
 						<div className="slick-tw">
-							<div className="tweet item" id="">{'<!-- Put your twiter id here -->'}
+							<div className="tweet item" id="">
 							</div>
-							<div className="tweet item" id="">{'<!-- Put your 2nd twiter account id here -->'}
+							<div className="tweet item" id="">
 							</div>
 						</div>							
 					</div>
@@ -390,7 +383,7 @@ function App() {
 		</div>
 	</div>
 </div>
-{'<!-- footer section-->'}
+
 <footer className="ht-footer">
 	<div className="container">
 		<div className="flex-parent-ft">
