@@ -239,19 +239,29 @@ function App() {
 					<a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
 				</div>
 
-        <Movie></Movie>
+        <Movie titulo="oblivion (2012)" 
+        calificacion="8.1" 
+        mmpa="PG-13" 
+        runtime="2h21’"  
+        director="Joss Whedon" 
+        actores="Robert Downey Jr., Chris Evans, Chris Hemsworth" 
+        release="1 May 2015"
+		urltitle="moviesingle.html"
+		img="images/uploads/mv1.jpg">Earth's mightiest heroes must come together and learn to fight as a
+          team if they are to stop the mischievous Loki and his alien army from
+          enslaving humanity...</Movie>
 
-				<div className="movie-item-style-2">
-					<img src="images/uploads/mv2.jpg" alt=""/>
-					<div className="mv-item-infor">
-						<h6><a href="moviesingle.html">into the wild <span>(2014)</span></a></h6>
-						<p className="rate"><i className="ion-android-star"></i><span>7.8</span> /10</p>
-						<p className="describe">As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat...</p>
-						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Anthony Russo,</a><a href="#">Joe Russo</a></p>
-						<p>Stars: <a href="#">Chris Evans,</a> <a href="#">Samuel L. Jackson,</a> <a href="#">  Scarlett Johansson</a></p>
-					</div>
-				</div>
+		  <Movie titulo="into the wild(2014)" 
+        calificacion="7.8" 
+        mmpa="PG-13" 
+        runtime="2h21’"  
+        director="Anthony Russo, Joe Russo" 
+        actores="Chris Evans, Samuel L. Jackson, Scarlett Johansson" 
+        release="1 May 2015"
+		urltitle="moviesingle.html"
+		img="images/uploads/mv2.jpg">As Steve Rogers struggles to embrace his role in the modern world, 
+		he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat...</Movie>		  
+
 				<div className="movie-item-style-2">
 					<img src="images/uploads/mv3.jpg" alt=""/>
 					<div className="mv-item-infor">
