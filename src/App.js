@@ -26,10 +26,10 @@ function App() {
         </Movie>
       ))}
 
-      /* Pagina actual / cantidad de paginas / acción o evento al cambiar de pagina */
+      {/* Pagina actual / cantidad de paginas / acción o evento al cambiar de pagina */}
 
       <Pagination
-        pagina={2}
+        pagina={1}
         total={4}
         onChange={(pagina) => {
           alert(pagina)
