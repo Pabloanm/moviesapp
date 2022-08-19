@@ -15,11 +15,14 @@ function App() {
   let peliculas = moviesJson; //import Json with movies
 
   const buscarPelicula = async () => {
-	let url = ''; //aqui va el url	
+
+	//attention to CORS problem - use --> "mode":'no-cors'
+	let url = 'https://github.com/Pabloanm/moviesapp/blob/master/src/movies.json'; 
 
 	//request to server
-	var respuesta = await fetch(url,{
+	let respuesta = await fetch(url,{
 		"method": 'GET',
+		"mode":'no-cors',
 		"headers": {
 			"Accept": 'application/json',
 			"Content-Type": 'application/json'
@@ -27,11 +30,12 @@ function App() {
 	});
 	
 	//paso el objeto del fetch a formato json
-	var json = await respuesta.json();
+    let json = await respuesta.json();
 
-	alert(resultado);
+	alert(json);
   }
 
+  buscarPelicula();
 
   const cargarPeliculas = () => {
     peliculas = peliculas.slice(
